@@ -9,7 +9,7 @@ Installation
 -----
 
 ```
-npm install convert-units --save
+npm install dg-convert-units --save
 ```
 
 Usage
@@ -20,7 +20,7 @@ Usage
 Here's how you move between the metric units for volume:
 
 ```js
-var convert = require('convert-units')
+var convert = require('dg-convert-units')
 
 convert(1).from('l').to('ml')
 // 1000
@@ -40,7 +40,7 @@ convert(1).from('oz').to('fl-oz')
 // throws -- you can't go from mass to volume!
 ```
 
-You can ask `convert-units` to select the best unit for you. You can also optionally explicitly exclude orders of magnitude or specify a cut off number for selecting the best representation.
+You can ask `dg-convert-units` to select the best unit for you. You can also optionally explicitly exclude orders of magnitude or specify a cut off number for selecting the best representation.
 ```js
 convert(12000).from('mm').toBest()
 // 12 Meters (the smallest unit with a value above 1)

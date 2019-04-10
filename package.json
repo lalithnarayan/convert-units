@@ -1,6 +1,6 @@
 {
-  "name": "convert-units",
-  "version": "2.3.4",
+  "name": "dg-convert-units",
+  "version": "1.0.0",
   "description": "Convert between quantities in different units",
   "main": "lib",
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ben-ng/convert-units.git"
+    "url": "https://github.com/lalithnarayan/convert-units.git"
   },
   "keywords": [
     "metric",
@@ -25,6 +25,6 @@
     "ratio",
     "fraction"
   ],
-  "author": "Ben Ng <me@benng.me> (http://benng.me)",
+  "author": "Lalith Narayan Kashyap",
   "license": "MIT"
 }

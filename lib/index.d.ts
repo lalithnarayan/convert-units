@@ -16,6 +16,7 @@ declare module "convert-units" {
     type uVoltage = "V" | "mV" | "kV"; // Voltage
     type uCurrent = "A" | "mA" | "kA"; // Current
     type uPower = "W" | "mW" | "kM" | "MW" | "GW";
+    type uCapaity = "Wp" | "mWp" | "kMp" | "MWp" | "GWp";
     type uApparentPower = "VA" | "mVA" | "kVA" | "MVA" | "GVA"; // Apparent Power
     type uReactivePower = "VAR" | "mVAR" | "kVAR" | "MVAR" | "GVAR"; // Reactive Power
     type uEnergy = "Wh" | "mWh" | "kWh" | "MWh" | "GWh" | "J" | "kJ"; // Energy
