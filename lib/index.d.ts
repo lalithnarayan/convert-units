@@ -1,4 +1,4 @@
-declare module "convert-units" { 
+declare module "dg-convert-units" { 
     type uDistance = "mm" | "cm" | "m" | "km" | "in" | "ft-us" | "ft" | "mi"; // Distance
     type uArea = "mm2" | "cm2" | "m2" | "ha" | "km2" | "in2" | "ft2" | "ac" | "mi2"; // Area
     type uMass = "mcg" | "mg" | "g" | "kg" | "oz" | "lb" | "mt" | "t" // Mass
@@ -41,6 +41,7 @@ declare module "convert-units" {
               | uVoltage
               | uCurrent
               | uPower
+              | uCapaity
               | uApparentPower
               | uReactivePower
               | uEnergy
@@ -64,6 +65,7 @@ declare module "convert-units" {
                  | "voltage"
                  | "current"
                  | "power"
+                 | "capacity"
                  | "apparentPower"
                  | "reactivePower"
                  | "energy"

@@ -1,8 +1,8 @@
-var t = new jake.TestTask('convert-units', function () {
+var t = new jake.TestTask('dg-convert-units', function () {
   this.testFiles.include('test/*');
 });
 
-var d = new jake.PublishTask('convert-units', function () {
+var d = new jake.PublishTask('dg-convert-units', function () {
   this.packageFiles.include([
     'lib/**'
   , 'test/*'
